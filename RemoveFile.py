@@ -6,8 +6,6 @@ def removeFile():
         if os.path.exists(filePath):
             os.remove("stations.txt")
             print("\nTLE sets removed.")
-        else:
-            pass
         time.sleep(3600)
 
 def periodicRemoval():
