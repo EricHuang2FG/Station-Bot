@@ -61,7 +61,7 @@ def handleResponse(message):
         return "***Commands:***\n\t\- *`?get`*  followed by the name of a satellite finds the position of that satellite\n\t\- *`?syntax`*  lists the `?get` command syntax for all available satellites\n\t\- *`?info`*  provides you some information about this bot\n\t\- *`?commands`*  you are already here, aren't you? : )"
 
     if userInput == "?SYNTAX":
-        return "***Syntax (Updated 2024/02/07):***\n\t\- International Space Station: *`ISS`*\n\t\- China Space Station (Tiangong): *`CSS`*\n\t\- Tianzhou-7: *`TIANZHOU-7`*\n\t\- Shenzhou-17: *`SHENZHOU-17 (SZ-17)`*\n\t\- Progress MS-25: *`PROGRESS-MS 25`*\n\t\- Progress MS-24: *`PROGRESS-MS 24`*\n\t\- Soyuz MS-24: *`SOYUZ-MS 24`*\n\t\- AXIOM 3: *`AXIOM-3`*\n\t\- Cygnus NG-20: *`CYGNUS NG-20`*\n\n\t**Note: The syntaxes are NOT case sensitive, but are character sensitive!*"
+        return "***Syntax (Updated 2024/03/10):***\n\t\- International Space Station: *`ISS`*\n\t\- China Space Station (Tiangong): *`CSS`*\n\t\- Tianzhou-7: *`TIANZHOU-7`*\n\t\- Shenzhou-17: *`SHENZHOU-17 (SZ-17)`*\n\t\- Progress MS-25: *`PROGRESS-MS 25`*\n\t\- Progress MS-26: *`PROGRESS-MS 26`*\n\t\- Soyuz MS-24: *`SOYUZ-MS 24`*\n\t\- Crew Dragon 7: *`CREW DRAGON 7`* \n\t\- Crew Dragon 8: *`CREW DRAGON 8`*\n\t\- Cygnus NG-20: *`CYGNUS NG-20`*\n\n\t**Note: The syntaxes are NOT case sensitive, but are character sensitive!*"
     
     if userInput == "?INFO":
         return "The positional information of the satellites are calculated with TLE (Two-Line Element) files using Python's skyfield library!"
