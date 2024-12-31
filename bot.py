@@ -1,8 +1,8 @@
-import os, OrbitalTrack, discord
+import os, orbital_track, discord
 
 async def send_message(message, user_message):
     try:
-        response = OrbitalTrack.handleResponse(user_message)
+        response = orbital_track.handleResponse(user_message)
         await message.channel.send(response)
     except Exception as e:
         print(e)
